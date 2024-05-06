@@ -36,8 +36,8 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    width: 80%;
-margin: 5% 10%;
+    margin: 1% 50px;
+    gap: 30px;
 }
 
 
@@ -45,7 +45,8 @@ margin: 5% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: calc(100%/3);
+    width: calc((100%/3) - 100px);
+    
 
 }
 

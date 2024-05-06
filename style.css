@@ -112,6 +112,12 @@ main{
 }
 
 
+/*setting vecchio prezzo*/
+.vecchi-prezzo{
+    color: black;
+   text-decoration: line-through;
+}
+
 
  
 

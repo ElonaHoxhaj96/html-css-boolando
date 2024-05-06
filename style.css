@@ -22,3 +22,44 @@ a{
 .area-personale{
   
 }
+
+
+/* setting MAIN SECTION*/ 
+main{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenitore-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+margin: 5% 10%;
+}
+
+
+.prodoct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: calc(100%/3);
+
+}
+
+.contenitore-immagine{ 
+    background-size: contain;
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+}
+ 
+
+.inmagini{
+    width: 100%;
+    height:100%;
+
+}
+ 

@@ -46,6 +46,7 @@ main{
     flex-wrap: wrap;
     justify-content: flex-start;
     width: calc((100%/3) - 100px);
+    position: relative;
     
 
 }
@@ -59,11 +60,23 @@ main{
 }
  
 
-.inmagini{
+.inmagini, .a-comparsa{
     width: 100%;
     height:100%;
 }
 
+
+.a-comparsa{
+    display: none;
+    position: absolute;
+
+}
+
+
+.contenitore-immagine:hover .a-comparsa{
+    display: flex;
+
+}
 /* setting dei cuori */ 
 
 .cuore-nero{
@@ -75,13 +88,12 @@ main{
     width: 40px;
     display: flex;
     justify-content: center;
+    z-index: 500;
 }
-.contenitore-immagine:hover .cuore-nero{
+.prodoct:hover .cuore-nero{
     display: flex;
     color: red;
 }
-
-
 /*setting discount*/ 
 
 .discount{
@@ -91,7 +103,7 @@ main{
     width: auto;
     padding: 1% 2%;
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 0;
     
 

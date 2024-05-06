@@ -93,7 +93,22 @@ main{
     position: absolute;
     bottom: 20px;
     left: 0;
+    
 
+}
+
+/*setting sostenibilità*/ 
+
+.sostenibilita{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    width: auto;
+    padding: 1% 2%;
+    position: absolute;
+    bottom: 20px;
+    left: 18%;
+ 
 }
 
 

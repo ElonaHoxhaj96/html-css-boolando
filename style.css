@@ -34,7 +34,7 @@ main{
 .contenitore-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     margin: 1% 50px;
     gap: 30px;
@@ -44,7 +44,7 @@ main{
 .prodoct{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     width: calc((100%/3) - 100px);
     
 
@@ -64,3 +64,13 @@ main{
 
 }
  
+
+/* setting testo prodotti*/ 
+
+.titolo-prodotto, .prezzo{
+    font-weight: bold;
+}
+
+.prezzo{
+    color: red;
+}

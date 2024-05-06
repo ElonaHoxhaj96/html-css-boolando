@@ -28,7 +28,7 @@ a{
 /* setting MAIN SECTION*/ 
 main{
     margin: 0;
-    padding: 0;
+    padding: 3%;
 
 }
 
@@ -150,5 +150,10 @@ main{
 #pièpagina{
     background-color: black;
     width: 100%;
-    height: 100px;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+    padding-bottom: 2%;
 }

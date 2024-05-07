@@ -4,15 +4,22 @@ body{
 
 
 /* setting header*/ 
-
-#intestazione{
-    position: fixed 0;
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 800;
     background-color: rgb(252, 128, 56);
     width: 100%;
+
+}
+#intestazione{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 a{
@@ -20,14 +27,15 @@ a{
     color: white;
 }
 
-.area-personale{
-  
-}
 
+#logo{
+    width: 100px;
+    display: flex;
+    margin: auto;
+}
 
 /* setting MAIN SECTION*/ 
 main{
-    margin: 0;
     padding: 3%;
 
 }
@@ -37,7 +45,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    margin: 1% 50px;
+    margin: 0 50px;
     gap: 30px;
 }
 
@@ -46,10 +54,9 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: calc((100%/3) - 100px);
+    width: calc((100% / 3) - 100px);
     position: relative;
-    
-
+    margin-top: 5%;
 }
 
 .contenitore-immagine{ 

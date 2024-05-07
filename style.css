@@ -91,7 +91,7 @@ main{
     justify-content: center;
     z-index: 500;
 }
-.prodoct:hover .cuore-nero{
+.cuore-nero:hover {
     display: flex;
     color: red;
 }

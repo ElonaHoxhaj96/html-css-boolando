@@ -11,6 +11,8 @@ header{
     z-index: 800;
     background-color: rgb(252, 128, 56);
     width: 100%;
+    height: 40px;
+    display: flex;
 
 }
 #intestazione{
@@ -24,6 +26,10 @@ header{
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+i{
     color: white;
 }
 
